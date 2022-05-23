@@ -32,6 +32,7 @@ const config = {
       external: [
         'electron',
         'electron-devtools-installer',
+        'express',
         ...builtinModules.flatMap(p => [p, `node:${p}`]),
       ],
       output: {

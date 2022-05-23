@@ -25,6 +25,7 @@
     "typecheck": "npm run typecheck:main && npm run typecheck:preload && npm run typecheck:renderer"
   },
   "devDependencies": {
+    "@types/dplayer": "^1.25.2",
     "@types/express": "^4.17.13",
     "@typescript-eslint/eslint-plugin": "5.12.1",
     "@typescript-eslint/parser": "^5.25.0",
@@ -39,6 +40,7 @@
     "happy-dom": "2.41.0",
     "nano-staged": "0.6.0",
     "playwright": "1.19.1",
+    "sass": "^1.52.1",
     "simple-git-hooks": "2.7.0",
     "typescript": "4.5.5",
     "vite": "2.8.4",
@@ -46,9 +48,15 @@
     "vue-tsc": "0.31.4"
   },
   "dependencies": {
+    "dplayer": "^1.26.0",
     "electron-updater": "4.6.5",
+    "element-plus": "^2.2.1",
     "express": "^4.18.1",
+    "flv.js": "^1.6.2",
     "node-fetch": "^3.2.4",
-    "vue": "3.2.31"
+    "pinia": "^2.0.14",
+    "vue": "3.2.31",
+    "vue-router": "^4.0.15",
+    "webworkify-webpack": "^2.1.5"
   }
 }

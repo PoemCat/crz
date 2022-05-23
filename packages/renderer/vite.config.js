@@ -34,6 +34,7 @@ const config = {
     rollupOptions: {
       input: join(PACKAGE_ROOT, 'index.html'),
       external: [
+        'element-plus',
         ...builtinModules.flatMap(p => [p, `node:${p}`]),
       ],
     },
