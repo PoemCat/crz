@@ -1,7 +1,6 @@
 import {app} from 'electron';
 import './security-restrictions';
 import {restoreOrCreateWindow} from '/@/mainWindow';
-import './app';
 /**
  * Prevent multiple instances
  */
